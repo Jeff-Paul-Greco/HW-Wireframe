@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: "960px";
+    font-size: "18px";
+}
+
+p {
+    text-align: center;
+    color: #777;
+    background: #ebebeb;
+}
+
+h1 {
+    font-size: 20px;
+    line-height: 90px;
+    position: relative;
+    top: 10px;
+    left: 12%;
+    text-align: center;
+    box-sizing: border-box;
+    width: 75%;
+    color: #777;
+    background: #ebebeb;
+}
+
+nav {
+    font-size: 20px;
+    line-height: 90px;
+    position: relative;
+    top: 20px;
+    left: 12%;
+    text-align: center;
+    box-sizing: border-box;
+    width: 75%;
+    color: #777;
+    background: #ebebeb;
+}
+
+section {
+    box-sizing: border-box;
+    position: relative;
+    left: 12%;
+    top: 40px;
+    width: 495px;
+    height: 275px;
+    color: #777;
+    background: #ebebeb;
+}
+
+article {
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #ebebeb;
+    background: #777;
+    position:relative;
+    top: 20%;
+    left: 2.5%;
+    width: 95%;
+    height: 180px;
+}
+
+.sec-text {
+    font-size: 20px;
+    position: relative;
+    top: 25px;
+}
+
+.headers {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    background: #ebebeb;
+    color: #777;
+    width: 90%;
+    height: 10%;
+    top: 10%;
+    left: 1%;
+}
+
+.paragraph {
+    padding: 20px;
+    position:relative;
+    background: #ebebeb;
+    color: #777;
+    width: 90%;
+    height: 10%;
+    left: 1%;
+    top: 15%;
+    font-size: 20px;
+}
+
+aside {
+    padding: 22px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    color: #777;
+    background: #ebebeb;
+    height: 274px;
+    width: 480px;
+    right: 176px;
+    bottom: 235px;
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+footer {
+    font-size: 20px;
+    line-height: 90px;
+    position: relative;
+    top: 60px;
+    left: 12%;
+    text-align: center;
+    box-sizing: border-box;
+    width: 75%;
+    color: #777;
+    background: #ebebeb;
+    padding-left: 162px;
+}
